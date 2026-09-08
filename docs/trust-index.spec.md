@@ -200,22 +200,22 @@ Tracked on the `synergergetic-solutions-site` issues board. Phases: **A = pipeli
 
 | # | Issue | Phase | Work item | Spec refs |
 |---|---|---|---|---|
-| TI-01 | [#9](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/9) | A | Scaffold private pipeline repo + NAS Docker runner (`nas-heavy`) | §3, DEC-09, NFR-4 |
-| TI-02 | [#10](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/10) | A | Discovery: CC host-index pull (DuckDB/HTTPS) + DNS sweep + vendor CNAME classification | FR-D1..D4 |
-| TI-03 | [#11](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/11) | A | Extraction: four vendor parsers + framework taxonomy + fixtures in CI | FR-E1, E2, E4 |
-| TI-04 | [#12](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/12) | A | Enrichment: identity spine (incl. BuiltWith link) + security.txt + DNS posture + company summaries (Wikipedia→LLM); registries removed per DEC-17 | FR-N1, N3, N7 |
-| TI-05 | [#13](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/13) | A | Enrichment: compliance timelines (Wayback/CC) + hiring signals | FR-N4, N5 |
-| TI-06 | [#14](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/14) | A | Subprocessor graph + chain-trust metric | FR-E3 |
-| TI-07 | [#15](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/15) | A | LLM segment classification (12/40 two-level taxonomy) | FR-N6, DEC-04 |
-| TI-08 | [#16](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/16) | A | Snapshot publishing: Parquet→GCS + lifecycle + BQ external + versioned data releases | FR-M1, M3, DEC-06 |
-| TI-09 | [#17](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/17) | C | Public data repo: scaffold, issue forms, verification Action, overrides layer | FR-C1..C4, FR-M2 |
-| TI-10 | [#18](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/18) | B | Site: `/trust-index` routes, collection loader, data-pull script, nav, hubs, profiles | FR-S1, S2, S4, FR-M4 |
-| TI-11 | [#19](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/19) | B | Site: full SEO complement + methodology page + CI JSON-LD tests | FR-S5 |
-| TI-12 | [#20](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/20) | B | Rebuild wiring: repository_dispatch + correction fast path | FR-S3 |
-| TI-13 | [#21](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/21) | C | Lead magnets v1: scorecard Worker + HubSpot Forms + gated exporter (relates to #8) | FR-L1, L2, L6 |
-| TI-14 | [#22](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/22) | C | Claimed-profile UX + embeddable badge | FR-C5 |
-| TI-15 | [#23](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/23) | B | Open-core dataset publication: CC BY files, Dataset JSON-LD, enriched-export ToU | §8, DEC-05 |
-| TI-16 | [#24](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues/24) | — | Phase-2 backlog: watchlists, segment PDFs, newsletter, OG images everywhere, technographics, TrustBench | FR-L3..L5, §8 |
+| TI-01 | [#9](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/9) | A | Scaffold private pipeline repo + NAS Docker runner (`nas-heavy`) | §3, DEC-09, NFR-4 |
+| TI-02 | [#10](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/10) | A | Discovery: CC host-index pull (DuckDB/HTTPS) + DNS sweep + vendor CNAME classification | FR-D1..D4 |
+| TI-03 | [#11](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/11) | A | Extraction: four vendor parsers + framework taxonomy + fixtures in CI | FR-E1, E2, E4 |
+| TI-04 | [#12](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/12) | A | Enrichment: identity spine (incl. BuiltWith link) + security.txt + DNS posture + company summaries (Wikipedia→LLM); registries removed per DEC-17 | FR-N1, N3, N7 |
+| TI-05 | [#13](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/13) | A | Enrichment: compliance timelines (Wayback/CC) + hiring signals | FR-N4, N5 |
+| TI-06 | [#14](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/14) | A | Subprocessor graph + chain-trust metric | FR-E3 |
+| TI-07 | [#15](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/15) | A | LLM segment classification (12/40 two-level taxonomy) | FR-N6, DEC-04 |
+| TI-08 | [#16](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/16) | A | Snapshot publishing: Parquet→GCS + lifecycle + BQ external + versioned data releases | FR-M1, M3, DEC-06 |
+| TI-09 | [#17](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/17) | C | Public data repo: scaffold, issue forms, verification Action, overrides layer | FR-C1..C4, FR-M2 |
+| TI-10 | [#18](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/18) | B | Site: `/trust-index` routes, collection loader, data-pull script, nav, hubs, profiles | FR-S1, S2, S4, FR-M4 |
+| TI-11 | [#19](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/19) | B | Site: full SEO complement + methodology page + CI JSON-LD tests | FR-S5 |
+| TI-12 | [#20](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/20) | B | Rebuild wiring: repository_dispatch + correction fast path | FR-S3 |
+| TI-13 | [#21](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/21) | C | Lead magnets v1: scorecard Worker + HubSpot Forms + gated exporter (relates to #8) | FR-L1, L2, L6 |
+| TI-14 | [#22](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/22) | C | Claimed-profile UX + embeddable badge | FR-C5 |
+| TI-15 | [#23](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/23) | B | Open-core dataset publication: CC BY files, Dataset JSON-LD, enriched-export ToU | §8, DEC-05 |
+| TI-16 | [#24](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues/24) | — | Phase-2 backlog: watchlists, segment PDFs, newsletter, OG images everywhere, technographics, TrustBench | FR-L3..L5, §8 |
 
 All v1 items (TI-01..TI-15) are on milestone **Trust Index v1**; TI-16 is unmilestoned backlog. Label: `trust-index`.
 
@@ -239,4 +239,4 @@ Site/claims/lead-magnet tracks (TI-09..TI-16) exist as a POC on the `trust-index
 
 ---
 
-*Canonical home: [trust-index-data/docs/trust-index.spec.md](https://github.com/Maverick-Coders/trust-index-data/blob/main/docs/trust-index.spec.md) (this local copy is a mirror). Decisions cite the 2026-08-25 design session and spike results.*
+*Canonical home: [trust-index-data/docs/trust-index.spec.md](https://github.com/synergetic-solutions/trust-index-data/blob/main/docs/trust-index.spec.md) (this local copy is a mirror). Decisions cite the 2026-08-25 design session and spike results.*

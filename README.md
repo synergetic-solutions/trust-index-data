@@ -2,7 +2,7 @@
 
 Open-core dataset and community corrections for [Trust Index](https://synergetic.solutions/trust-index), a directory of companies with a public compliance footprint: organizations that publicly advertise security and compliance posture through trust centers, security.txt files, and public registries.
 
-**Spec:** [docs/trust-index.spec.md](docs/trust-index.spec.md). Implementation tracking: [TI-01..TI-16](https://github.com/Maverick-Coders/synergergetic-solutions-site/issues?q=label%3Atrust-index).
+**Spec:** [docs/trust-index.spec.md](docs/trust-index.spec.md). Implementation tracking: [TI-01..TI-16](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues?q=label%3Atrust-index).
 
 ## What this repo holds
 
