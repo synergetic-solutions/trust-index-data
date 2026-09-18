@@ -32,6 +32,8 @@ body:
         - crunchbase
         - linkedin
         - firstObserved
+        - baa
+        - baaUrl
     validations:
       required: true
   - type: input

@@ -26,7 +26,7 @@ import urllib.request
 # shouldn't drive (summary/summarySource are editorial, hiring is live data).
 CORRECTABLE = {
     "name", "segment", "frameworks", "crunchbase", "linkedin",
-    "founded", "industry", "firstObserved",
+    "founded", "industry", "firstObserved", "baa", "baaUrl",
 }
 
 _DOMAIN = re.compile(r"^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}$")
@@ -74,6 +74,10 @@ def coerce_value(field: str, raw: str):
         return int(raw) if raw.isdigit() and len(raw) == 4 else None
     if field == "frameworks":
         return [p.strip() for p in raw.split(",") if p.strip()]
+    if field == "baa":
+        return raw.lower() if raw.lower() in ("public", "gated") else None
+    if field == "baaUrl":
+        return raw if raw.startswith("https://") else None
     return raw
 
 
