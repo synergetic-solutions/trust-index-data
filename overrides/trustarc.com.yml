@@ -1,0 +1,8 @@
+# Hand-maintained override: the company styles its name "TrustArc"; the
+# pipeline's domain-derived fallback renders "Trustarc" because Wikidata has
+# no organization entity with trustarc.com as its official website.
+domain: trustarc.com
+name: TrustArc
+evidence: https://trustarc.com/
+method: hand-verified
+verifiedAt: "2026-09-18"
