@@ -150,7 +150,7 @@ All gates run through one Cloudflare Worker seam + HubSpot Forms API; consent ch
 
 **Open core split (DEC-05):**
 
-- **Open core** (CC BY 4.0, published in data repo + Dataset JSON-LD → Google Dataset Search): org identity (name, domain, slug), parent+child segment, advertised framework list, as-of date, profile URL.
+- **Open core** (CC BY 4.0, published in data repo + Dataset JSON-LD → Google Dataset Search): org identity (name, domain, slug), parent segment, advertised framework list, as-of date, profile URL. The released file carries the parent segment only (20 values on the 2026-09-15 release); child segments are not published. Fields with no observed value (`segment`, `frameworks`, `access`) are omitted from the record rather than emitted empty; on the 2026-09-15 release 37% of records carry a segment and 32% carry frameworks.
 - **Proprietary enriched** (terms-of-use contract at every gate; never CC-released, preserving the one-way ratchet): compliance timelines, hiring signals, subprocessor graph + chain-trust, historical diffs/snapshots, registry cross-references, DNS posture scores.
 - **Third-party-licensed** (kept out of both tiers above, carrying their own terms): Wikipedia-sourced company summaries are CC BY-SA 4.0 — attributed to Wikipedia and never relicensed under the CC BY 4.0 core; LLM-generated summaries are original and follow whichever tier they are placed in. The `summarySource` field records provenance so downstream consumers can honor the right license.
 
