@@ -6,9 +6,10 @@ Open-core dataset and community corrections for [Trust Index](https://synergetic
 
 ## What this repo holds
 
-- `data/open/` — the **open-core dataset** (org identity, market segment, publicly advertised frameworks, as-of date, profile URL), released under **CC BY 4.0** (see `LICENSE-DATA`). Every record carries identity, trust-center URL, as-of date, and profile URL; `segment` (parent level only), `frameworks`, and `access` are omitted when the pipeline found no value.
+- `data/open/` — the **open-core dataset** (org identity, market segment, publicly advertised frameworks, as-of date, profile URL), released under **CC BY 4.0** (see `LICENSE-DATA`). It holds organizations with a trust center on a recognized platform, the same set that has profile pages; domains that only resolved in discovery are not published. Every record carries identity, trust-center URL, as-of date, and profile URL; `segment` (parent level only), `frameworks`, and `access` are omitted when the pipeline found no value.
 - `overrides/` — validated community corrections and profile claims, one YAML file per organization, each carrying the evidence URL, verification method, date, and originating issue.
 - `docs/` — the project specification and methodology.
+- `docs/RELEASES.md` — one entry per open-core release, including the 2026-10-05 correction to the releases from 2026-09-08 to 2026-10-03.
 - Issue forms for **claiming a profile**, **requesting a correction**, and **submitting a company** (arriving with TI-09).
 
 ## How data gets here
