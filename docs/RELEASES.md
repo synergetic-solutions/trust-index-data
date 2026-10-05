@@ -4,6 +4,13 @@ One entry per release of `data/open/trust-index-open.json`, newest first. The re
 
 <!-- releases:start -->
 
+## 2026-10-05
+
+- Release branch `release/2026-10-05`.
+- 3,953 records; organizations with a trust center: 3,953; publicly advertising ≥1 framework: 3,111.
+- Domains discovered: 9,813; 5,860 discovery candidates kept private (DEC-21).
+- Added 0, dropped 7.
+
 ## Correction 2026-10-05: DNS-only candidates in the 2026-09-08 to 2026-10-03 releases
 
 Every release up to and including 2026-10-03 published every domain discovery found, not only the organizations with a trust center. The extra records are discovery candidates: a `trust.`, `security.` or `compliance.` hostname that resolved in DNS, with no trust-center platform behind it and nothing read from it. A sample of them found about 19% are real trust or security pages and about 45% exist only because the domain has a wildcard DNS record ([pipeline#16](https://github.com/synergetic-solutions/trust-index-pipeline/issues/16)).
