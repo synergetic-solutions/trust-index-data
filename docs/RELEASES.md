@@ -4,12 +4,9 @@ One entry per release of `data/open/trust-index-open.json`, newest first. The re
 
 <!-- releases:start -->
 
-## 2026-10-06
+## Correction 2026-10-06: release 2026-10-06 reverted
 
-- Release branch `release/2026-10-06`.
-- 4,353 records (evidence A 4,041, B 312, C 0); organizations with a trust center (A+B): 4,353; publicly advertising ≥1 framework: 3,593.
-- Domains discovered: 7,597; 3,244 discovery candidates (tier D) kept private.
-- Added 592, dropped 194.
+The 2026-10-06 release ([PR #17](https://github.com/synergetic-solutions/trust-index-data/pull/17), merged 6f772c2) was reverted the same day. About 99 of its evidence tier B records were Comp AI trust centers read by the generic HTML reader, which took the boilerplate on every Comp AI page ("frameworks like SOC 2, ISO 27001, ISO 9001, and more") as each company's claims, so those records listed frameworks the companies do not publicly advertise. The pipeline's Comp AI client, which reads only frameworks marked Compliant, merged after that run started. The open file is back to the 2026-10-05 release until a release built with the client replaces it; that release's entry appears above this one.
 
 ## 2026-10-05
 
