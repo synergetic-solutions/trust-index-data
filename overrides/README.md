@@ -16,6 +16,14 @@ founded, industry, summary, summarySource, firstObserved, hiring`. Everything
 else in the file (`evidence`, `method`, `verifiedAt`, `issue`) is provenance
 and is ignored by the merge.
 
+`acceptRedirect: <registered domain>` records a review decision. A trust
+center that redirects to another registered domain is held as a tier-D
+candidate until someone checks it, so an acquirer's trust center is never
+credited to the company it bought. Setting `acceptRedirect` to the target
+domain admits the record at the tier its read earns. If the redirect later
+points at a different domain, the record is held again. The pipeline never
+copies this field onto the published record.
+
 Example:
 
 ```json
