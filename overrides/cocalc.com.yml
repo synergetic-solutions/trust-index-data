@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# CoCalc is a SageMath, Inc. product; apex 308
+domain: cocalc.com
+acceptRedirect: cocalc.ai
+evidence: https://trust.cocalc.ai/
+source: https://en.wikipedia.org/wiki/CoCalc
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# massive.io is MASV's legacy/app domain (listed in MASV's llms.txt)
+domain: massive.io
+acceptRedirect: masv.io
+evidence: https://trust.masv.io/
+source: https://masv.io/llms.txt
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

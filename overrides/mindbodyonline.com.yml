@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Playlist is the parent brand (since 2025-06) over Mindbody, ClassPass, Booker; Mindbody continues as a product
+domain: mindbodyonline.com
+acceptRedirect: playlist.com
+evidence: https://trust.playlist.com/
+source: https://athletechnews.com/mindbody-classpass-unveil-playlist-as-new-parent-company/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Identical sites and footer address (199 Water St, NY)
+domain: arch.co
+acceptRedirect: arch.com
+evidence: https://trust.arch.com/
+source: https://arch.com/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# ConductorOne renamed C1 (2026-04). NOTE: Workday announced acquisition of C1.ai 2026-10-13, close expected by 2027-01-31 — re-check after close
+domain: conductorone.com
+acceptRedirect: c1.ai
+evidence: https://trust.c1.ai/
+source: https://newsroom.workday.com/2026-10-13-Workday-to-Acquire-C1-ai,-a-Leading-Agentic-Identity-Platform-for-People-and-Agents
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Same company, new TLD; apex redirect
+domain: spara.co
+acceptRedirect: spara.com
+evidence: https://trust.spara.com/
+source: https://spara.com/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

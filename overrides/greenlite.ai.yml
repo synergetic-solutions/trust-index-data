@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Rebrand: Greenlite AI → Bretton AI, 2026-02-11
+domain: greenlite.ai
+acceptRedirect: bretton.com
+evidence: https://trust.bretton.com/
+source: https://www.ycombinator.com/companies/bretton-ai
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

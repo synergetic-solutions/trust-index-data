@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Sister brands in one company: Boeing sold Jeppesen + ForeFlight to Thoma Bravo (closed ~2025-11); operates as 'Jeppesen ForeFlight'
+domain: foreflight.com
+acceptRedirect: jepp.com
+evidence: https://trust.jepp.com/
+source: https://aopa.org/news-and-media/all-news/2025/april/22/jeppesen-foreflight-sold
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

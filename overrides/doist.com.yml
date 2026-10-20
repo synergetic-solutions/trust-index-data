@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Doist is the maker of Todoist; doist.com 301s to todoist.com
+domain: doist.com
+acceptRedirect: todoist.net
+evidence: https://trustcenter.todoist.net/
+source: https://www.todoist.com/about-us
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

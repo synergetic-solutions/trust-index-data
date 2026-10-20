@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Same company, new TLD; apex redirect
+domain: chambr.us
+acceptRedirect: chambr.ai
+evidence: https://trust.chambr.ai/
+source: https://chambr.ai/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

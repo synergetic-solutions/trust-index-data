@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Rebrand: Treasure Data → Treasure AI, 2026-04-20 ('Our domain: treasuredata.com → treasure.ai')
+domain: treasuredata.com
+acceptRedirect: treasure.ai
+evidence: https://trust.treasure.ai/
+source: https://www.treasure.ai/blog/treasure-ai-announcement
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Rebrand: NLPatent → Clerq, 2026-08-18
+domain: nlpatent.com
+acceptRedirect: clerq-ip.com
+evidence: https://trust.clerq-ip.com/
+source: https://betakit.com/nlpatent-rebrands-to-clerq-to-meet-growing-demand-for-patent-automation/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

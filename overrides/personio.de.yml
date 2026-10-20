@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# German and global sites of the same Munich HR vendor (inferred; pages bot-blocked)
+domain: personio.de
+acceptRedirect: personio.com
+evidence: https://trust.personio.com/
+source: https://www.personio.com/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

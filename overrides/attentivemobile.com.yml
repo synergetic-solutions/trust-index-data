@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Attentive Mobile Inc. → attentive.com; apex 301, footer still '© 2026 Attentive Mobile Inc.'
+domain: attentivemobile.com
+acceptRedirect: attentive.com
+evidence: https://security.attentive.com/
+source: https://www.attentive.com/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

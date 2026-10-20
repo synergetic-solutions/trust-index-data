@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Rebrand: DebtBook became Monetary, Inc. on 2026-10-12; release states no acquisition, merger or change in ownership
+domain: debtbook.com
+acceptRedirect: monetaryhq.com
+evidence: https://trust.monetaryhq.com/
+source: https://finance.yahoo.com/technology/ai/articles/debtbook-rebrands-monetary-treasury-platform-140000923.html
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Payward is Kraken's parent/legal entity; no change of control
+domain: kraken.com
+acceptRedirect: payward.com
+evidence: https://trust.payward.com/
+source: https://financemagnates.com/cryptocurrency/exchange/four-moves-in-six-weeks-how-payward-is-remaking-kraken-as-a-regulated-infrastructure-platform
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

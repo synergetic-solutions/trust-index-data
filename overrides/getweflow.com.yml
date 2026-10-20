@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Same company, new TLD; apex redirect
+domain: getweflow.com
+acceptRedirect: weflow.ai
+evidence: https://trust.weflow.ai/
+source: https://weflow.ai/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

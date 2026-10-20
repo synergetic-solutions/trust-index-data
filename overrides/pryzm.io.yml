@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Rebrand: Pryzm → Belisar, 2026-10-05 ('Belisar (Formerly Pryzm)')
+domain: pryzm.io
+acceptRedirect: belisar.com
+evidence: https://trust.belisar.com/
+source: https://belisar.com/blog/pryzm-becomes-belisar
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76
