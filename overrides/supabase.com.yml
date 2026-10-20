@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# supabase.io is Supabase's legacy domain (redirects to supabase.com); trust center still hosted there
+domain: supabase.com
+acceptRedirect: supabase.io
+evidence: https://trust.supabase.io/
+source: https://supabase.com/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

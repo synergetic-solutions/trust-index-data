@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Same company; apex redirect
+domain: brave.com
+acceptRedirect: brave.app
+evidence: https://trust.brave.app/
+source: https://brave.com/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

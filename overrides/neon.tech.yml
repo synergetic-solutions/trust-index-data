@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Same company, new TLD. NOTE: Neon is a Databricks company since 2025-05; neon.com remains Neon's own domain
+domain: neon.tech
+acceptRedirect: neon.com
+evidence: https://trust.neon.com/
+source: https://www.techtarget.com/searchdatamanagement/news/366623864/Databricks-adds-Postgres-database-with-1B-Neon-acquisition
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# IP Integration Limited; same-company at moderate confidence (shared Azure DNS; origin unreachable)
+domain: ipiplatform.com
+acceptRedirect: ipintegration.com
+evidence: https://trust.ipintegration.com/
+source: https://rdap.org/domain/ipiplatform.com
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

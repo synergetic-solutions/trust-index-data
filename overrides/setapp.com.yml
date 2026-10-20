@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Setapp is a MacPaw product; trust center centralised at the parent
+domain: setapp.com
+acceptRedirect: macpaw.com
+evidence: https://security.macpaw.com/
+source: https://macpaw.com/about
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Rebrand: Law Cyborg → Nylon, effective 2026-07-01; entity still Cyborg Limited
+domain: lawcyborg.com
+acceptRedirect: usenylon.com
+evidence: https://trust.usenylon.com/
+source: https://www.usenylon.com/rebranding-announcement
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

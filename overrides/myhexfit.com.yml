@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Hexfit Solutions; apex 301
+domain: myhexfit.com
+acceptRedirect: hexfit.com
+evidence: https://trust.hexfit.com/
+source: https://www.myhexfit.com/en/about-us-2/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76

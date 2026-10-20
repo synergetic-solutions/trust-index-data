@@ -1,0 +1,9 @@
+# Review decision from trust-index-pipeline#76 (cross-domain redirect hold).
+# Two products of Otomata SASU (Marseille)
+domain: oto.zone
+acceptRedirect: oto.cx
+evidence: https://trust.oto.cx/
+source: https://oto.cx/
+method: hand-verified
+verifiedAt: "2026-10-19"
+issue: 76
