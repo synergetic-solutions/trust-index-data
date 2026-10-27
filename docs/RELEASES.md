@@ -4,6 +4,13 @@ One entry per release of `data/open/trust-index-open.json`, newest first. The re
 
 <!-- releases:start -->
 
+## 2026-10-27
+
+- Release branch `release/2026-10-27`.
+- 8,977 records (evidence A 8,565, B 412, C 0); organizations with a trust center (A+B): 8,977; publicly advertising ≥1 framework: 6,417.
+- Domains discovered: 13,394; 4,417 discovery candidates (tier D) kept private.
+- Added 971, dropped 11.
+
 ## 2026-10-26
 
 - Release branch `release/2026-10-26`.
