@@ -5,6 +5,7 @@
 **Status:** Approved for implementation
 **Date:** 2026-08-25
 **Tracking:** GitHub issues on `synergergetic-solutions-site` (cross-referenced per section)
+**Methodology:** [methodology.md](methodology.md) is the canonical public methodology; the site's methodology page renders it (FR-S5, NFR-3)
 
 ---
 

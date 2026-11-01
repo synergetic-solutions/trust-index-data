@@ -2,13 +2,13 @@
 
 Open-core dataset and community corrections for [Trust Index](https://synergetic.solutions/trust-index), a directory of companies with a public compliance footprint: organizations that publicly advertise security and compliance posture through trust centers, security.txt files, and public registries.
 
-**Spec:** [docs/trust-index.spec.md](docs/trust-index.spec.md). Implementation tracking: [TI-01..TI-16](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues?q=label%3Atrust-index).
+**Methodology:** [docs/methodology.md](docs/methodology.md), the public methodology the directory renders. **Spec:** [docs/trust-index.spec.md](docs/trust-index.spec.md). Implementation tracking: [TI-01..TI-16](https://github.com/synergetic-solutions/synergergetic-solutions-site/issues?q=label%3Atrust-index).
 
 ## What this repo holds
 
 - `data/open/` — the **open-core dataset** (org identity, market segment, publicly advertised frameworks, as-of date, profile URL), released under **CC BY 4.0** (see `LICENSE-DATA`). Each record carries an `evidence` tier: `A` read through the platform's API, `B` trust-center content on the page backed by a second signal, `C` page content alone; filter to `A` and `B` for the headline organization count. Domains that only resolved in discovery (tier `D`) are not published. Records with a profile page carry `profileUrl`. Every record carries identity, trust-center URL, and as-of date; `segment` (parent level only), `frameworks`, and `access` are omitted when the pipeline found no value.
 - `overrides/` — validated community corrections and profile claims, one YAML file per organization, each carrying the evidence URL, verification method, date, and originating issue.
-- `docs/` — the project specification and methodology.
+- `docs/` — the project specification and the canonical methodology (`docs/methodology.md`).
 - `docs/RELEASES.md` — one entry per open-core release, including the 2026-10-05 correction to the releases from 2026-09-08 to 2026-10-03.
 - Issue forms for **claiming a profile**, **requesting a correction**, and **submitting a company** (arriving with TI-09).
 
