@@ -93,4 +93,4 @@ Corrections are welcome and are verified against public evidence before publicat
 
 ## About this dataset
 
-Profiles refresh monthly from an automated pipeline; corrections deploy when they are verified and merged. Coverage and enrichment expand with each refresh, and every release publishes [what changed](https://synergetic.solutions/resources/trust-center-directory/changes/), including how much of any movement is measurement rather than market.
+Profiles refresh monthly from an automated pipeline; corrections deploy when they are verified and merged. Coverage and enrichment expand with each refresh, and every release publishes [what changed](https://synergetic.solutions/resources/trust-center-directory/changes/), including how much of any movement is measurement rather than market. Each profile records the date of the release in which its published content last changed; a refresh that finds the same content, or cannot read the trust center, leaves that date alone.
