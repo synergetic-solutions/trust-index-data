@@ -4,7 +4,7 @@ Public repo: open-core dataset (`data/open/`, CC BY 4.0), community corrections 
 
 ## Rules
 
-- **Public repo.** No secrets, no self-hosted runner, nothing proprietary. Enriched layers (timelines, hiring, subprocessor graph, diffs) stay out.
+- **Public repo.** No secrets, no self-hosted runner, nothing proprietary. Only the CC BY open-core fields go here. Free-tier fields (timelines, posture, counts) and the proprietary layers (subprocessor lists and edges, hiring roles, diffs) stay out (spec §8, DEC-27).
 - **Overrides are data, never code.** The pipeline reads `overrides/*.yml` as files only.
 - **Wording is a legal shield.** Say a company "publicly advertises" a framework. HIPAA is a claim, never a certification. Corrections need public evidence; unverifiable claims are refused.
 - **`data/open/` arrives by PR from the pipeline** (refresh workflow, one PR per release with `changes.md` as the body). Do not hand-edit it. The same PR adds the release's entry to `docs/RELEASES.md`; hand-edit that file only for correction entries. A newer release PR supersedes older open ones; close the stale ones.
