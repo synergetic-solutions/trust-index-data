@@ -16,7 +16,7 @@ Open-core dataset and community corrections for [Trust Index](https://synergetic
 
 Everything published is **publicly observable**: what companies themselves advertise. Corrections must cite public evidence; an automated check verifies the evidence before a change is proposed, and a human merges it. Unverifiable posture claims are never accepted; the answer to "we hold X but don't publish it" is "publish it and the next refresh will pick it up."
 
-Compliance timelines, DNS posture scores, the chain-trust ratio and counts are shown free on every profile page but are not part of this CC BY dataset. The proprietary layers (subprocessor names and detail, reverse-edge lists, hiring roles and frameworks, historical diffs) are **not** in this repo; they are available through [synergetic.solutions/trust-index](https://synergetic.solutions/trust-index). See spec §8 and DEC-27.
+Compliance timelines, DNS posture scores, the chain-trust ratio and an organization's own subprocessor, AI-provider and open-role counts are shown free on every profile page but are not part of this CC BY dataset. The proprietary layers (subprocessor names and detail, the organizations naming one as a subprocessor and their count, hiring roles and frameworks, historical diffs) are **not** in this repo; they are available through [synergetic.solutions/trust-index](https://synergetic.solutions/trust-index). See spec §8 and DEC-27.
 
 ## Licensing
 
