@@ -1,9 +1,8 @@
 name: verify-correction
 
-# TI-09 / FR-C2: when a correction issue cites public evidence, verify the
-# citation and open an overrides PR. A human always merges (DEC-11: the
-# tracker is an inbox, never a store). Runs only on GitHub-hosted runners —
-# never self-hosted (DEC-09).
+# When a correction issue cites public evidence, verify the citation and open
+# an overrides PR. A human always merges: the tracker is an inbox, never a
+# store. Runs only on GitHub-hosted runners, never self-hosted.
 #
 # Issue content is untrusted data: it reaches the script via env vars only,
 # is never interpolated into shell text, and the script validates the domain

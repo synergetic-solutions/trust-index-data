@@ -1,4 +1,4 @@
-"""Verify a correction issue's evidence and stage an override file (TI-09, FR-C2).
+"""Verify a correction issue's evidence and stage an override file.
 
 Runs in the verify-correction workflow. Reads the issue form body from the
 ISSUE_BODY env var (never interpolated into a shell), fetches the cited public
