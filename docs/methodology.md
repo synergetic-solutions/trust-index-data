@@ -20,7 +20,7 @@ The Trust Center Directory catalogs the **publicly advertised** security and com
 
 ## How trust centers are discovered
 
-Trust centers are found, not submitted. Candidate hosts come from three sources: the Common Crawl web index, a sweep of the most-visited domains expanded with the subdomains trust centers use (`trust.`, `security.`, `compliance.`, `trustcenter.`, `trust-center.`), and the subprocessors that trust centers themselves disclose, which are fed back in. Every candidate is resolved in public DNS; hosts that only timed out get a second, slower pass so a published trust center never disappears over one bad second. The DNS record identifies the hosting platform (Vanta, SafeBase, Conveyor, Drata, Secureframe, and others). Every published organization is re-probed on every refresh.
+Trust centers are found, not submitted. Candidate hosts come from three sources: the Common Crawl web index, a sweep of the most-visited domains expanded with the subdomains trust centers use (`trust.`, `security.`, `compliance.`, `trustcenter.`, `trust-center.`), and the subprocessors that trust centers themselves disclose, which are fed back in. Every candidate is resolved in public DNS; hosts that only timed out get a second, slower pass so a published trust center never disappears over one bad second. The DNS record identifies the hosting platform (Vanta, SafeBase, Conveyor, Drata, Secureframe, and others). A candidate whose DNS record names no platform is read in full when its page carries a platform's markup or when the company's own homepage links to it; the rest stay in tier D and are checked again at the next refresh. Every published organization is re-probed on every refresh.
 
 **Domains discovered versus organizations.** The release counts every domain where a trust-style host resolved, including hosts with no recognized platform behind them. Only domains with evidence of a trust center become profiles (see [evidence behind each record](#evidence-behind-each-record)); a domain that merely resolved is never published. That is why "domains discovered" is larger than the number of organizations in the index.
 
@@ -83,7 +83,7 @@ Every record carries an evidence tier, and the open dataset publishes it with th
 - **Tier A**: the trust center was read through its platform's own API (Vanta, SafeBase, Drata, Conveyor and others), including access-gated ones.
 - **Tier B**: the trust center's page shows its compliance content, and a second signal backs it: the platform's DNS record or page markup, a link from the company's own website, or the company's security.txt.
 - **Tier C**: the page shows trust-center content and nothing else backs it.
-- **Tier D**: a trust-style hostname resolved but nothing could be read, or it served the company homepage, a not-found page, or a closed trust center. Tier D is never published; it is re-checked every refresh.
+- **Tier D**: a trust-style hostname resolved but nothing could be read, or it served the company homepage, a not-found page, a closed trust center, or a page that names frameworks but does not present itself as a trust center. Tier D is never published; it is re-checked every refresh.
 
 Organizations in tiers A and B get a profile and make up the index's counts. The open dataset also includes tier C, labelled as such. A trust center that cannot be read keeps its tier until two consecutive refreshes have passed without a successful read.
 
