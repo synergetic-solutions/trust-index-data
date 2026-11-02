@@ -58,7 +58,7 @@ Names are matched on whole words, so a company whose name only begins with a ven
 
 ## Segments and names
 
-Each organization is assigned one market segment, chosen by a language model from the organization's public description and industry and reviewed by hand where we have looked; organizations with neither are left unsegmented and appear in the directory but on no hub. "Vertical SaaS" is used only for software built for one non-technology industry that no other segment covers. Display names come from Wikidata when an organization is listed there and the label plausibly matches the domain; otherwise it comes from the organization's own homepage, and when that gives nothing the name is derived from the domain, which is why some read like a URL. Corrections to either are welcome.
+Each organization is assigned one market segment, chosen by a language model from the organization's public description and industry and reviewed by hand where we have looked; organizations with neither are left unsegmented and appear in the directory but on no hub. "Vertical SaaS" is used only for software built for one non-technology industry that no other segment covers. Display names come from Wikidata when an organization is listed there and the label plausibly matches the domain; otherwise the name comes from the organization's own homepage, and when that gives nothing it is derived from the domain, which is why some read like a URL. Corrections to either are welcome.
 
 ## Other sources
 
