@@ -55,7 +55,7 @@ The 2026-10-06 release ([PR #17](https://github.com/synergetic-solutions/trust-i
 
 - Release branch `release/2026-10-05`.
 - 3,953 records; organizations with a trust center: 3,953; publicly advertising ≥1 framework: 3,111.
-- Domains discovered: 9,813; 5,860 discovery candidates kept private (DEC-21).
+- Domains discovered: 9,813; 5,860 discovery candidates kept private.
 - Added 0, dropped 7.
 
 ## Correction 2026-10-05: DNS-only candidates in the 2026-09-08 to 2026-10-03 releases
@@ -75,7 +75,7 @@ The 2026-09-08 organization count comes from the comparison in the 2026-09-15 re
 
 **Effect.** Candidate records carry a `profileUrl` for a profile page that was never built, so those links return 404. Counts taken from the file overstate the directory by about 2.5×.
 
-**Fix.** From the next release on, the file holds only organizations with a trust center on a recognized platform, the same set that has profile pages ([DEC-21](trust-index.spec.md#2-decision-record)). Candidates stay in the private snapshot until an evidence check admits them. The first corrected release's entry sits above this one.
+**Fix.** From the next release on, the file holds only organizations with a trust center on a recognized platform, the same set that has profile pages (the methodology explains domains discovered versus organizations). Candidates stay in the private snapshot until an evidence check admits them. The first corrected release's entry sits above this one.
 
 **If you used an earlier file**, switch to the corrected release, or keep only records whose `profileUrl` resolves.
 
