@@ -7,10 +7,14 @@ One entry per release of `data/open/trust-index-open.json`, newest first. The re
 ## 2026-11-03
 
 - Release branch `release/2026-11-03`.
-- 9,745 records (evidence A 9,018, B 721, C 6); organizations with a trust center (A+B): 9,739; publicly advertising ≥1 framework: 6,864.
+- 9,745 records (evidence A 9,018, B 721, C 6); organizations with a trust center (A+B): 9,739; publicly advertising ≥1 framework: 6,858.
 - Domains discovered: 13,994; 4,249 discovery candidates (tier D) kept private.
 - Added 405, dropped 34.
 - First release with `lastChanged`: profiles unchanged since the 2026-10-29 release carry that release's date.
+
+## Correction 2026-11-03: framework listings for six organizations
+
+The 2026-11-03 release listed 23 to 25 frameworks each for connectvia.ai, getatlantic.ai, gurubase.io, mindra.co, patentext.com and turbolaw.ai. Their trust pages embed a catalog of 37 frameworks, nearly all marked not started, and the pipeline read the catalog as claims. The six records stay in the file with no frameworks listed. Organizations publicly advertising at least one framework went from 6,864 to 6,858; records and organizations with a trust center are unchanged.
 
 ## 2026-10-29
 
