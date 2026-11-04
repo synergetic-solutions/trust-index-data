@@ -1,0 +1,10 @@
+# Review decision on a list over 20 families.
+# Hand check on 2026-11-04 UTC: the page's certifications strip publicly advertises 20 families.
+# SOC 3 is not in the strip. It appears only as a document filter and in two gated documents in
+# the page's folder of pre-acquisition compliance documents. The owner decided to accept 21
+# because the page hosts those reports.
+domain: paloaltonetworks.com
+acceptFrameworkCount: 21
+evidence: https://trust.paloaltonetworks.com/
+method: hand-verified
+verifiedAt: "2026-11-04"

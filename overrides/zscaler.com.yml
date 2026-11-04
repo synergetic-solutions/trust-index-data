@@ -1,0 +1,8 @@
+# Review decision on a list over 20 families.
+# Hand check on 2026-11-04 UTC: the page publicly advertises 24 families. These are the 21 in
+# the current read plus CMMC, HITRUST and PCI DSS, which a pipeline reader fix adds.
+domain: zscaler.com
+acceptFrameworkCount: 24
+evidence: https://compliance.zscaler.com/
+method: hand-verified
+verifiedAt: "2026-11-04"

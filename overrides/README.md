@@ -24,6 +24,15 @@ domain admits the record at the tier its read earns. If the redirect later
 points at a different domain, the record is held again. The pipeline never
 copies this field onto the published record.
 
+`acceptFrameworkCount: <n>` records a review decision on a long list. A record
+with more than 20 families is held as a tier-D candidate until someone checks
+it by hand, since a page template's catalog can produce a list that long.
+Setting `acceptFrameworkCount` to the checked count admits a list of up to `n`
+families at the tier its read earns. A
+longer list is held again. The count is the only thing pinned, so a shorter list
+or a same-length swap of one family for another passes with no new check. The
+pipeline never copies this field onto the published record.
+
 Example:
 
 ```json
