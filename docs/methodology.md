@@ -87,7 +87,7 @@ Every record carries an evidence tier, and the open dataset publishes it with th
 - **Tier A**: the trust center was read through its platform's own API (Vanta, SafeBase, Drata, Conveyor and others), including access-gated ones.
 - **Tier B**: the trust center's page shows its compliance content, and a second signal backs it: the platform's DNS record or page markup, a link from the company's own website, or the company's security.txt.
 - **Tier C**: the page shows trust-center content and nothing else backs it.
-- **Tier D**: a trust-style hostname resolved but nothing could be read, or it served the company homepage, a not-found page, a closed trust center, a page that names frameworks but does not present itself as a trust center, or a page that only says what the organization does not hold or seek. Tier D is never published; it is re-checked every refresh.
+- **Tier D**: a trust-style hostname resolved but nothing could be read, or it served the company homepage, a not-found page, a closed trust center, a page that names frameworks but does not present itself as a trust center, or a page that only says what the organization does not hold or seek. It also covers a list of more than 20 frameworks awaiting its hand check and a trust center that redirects to another company's domain. Tier D is never published; it is re-checked every refresh.
 
 Organizations in tiers A and B get a profile and make up the index's counts. The open dataset also includes tier C, labelled as such. A tier A or B trust center that cannot be read keeps its tier until two consecutive refreshes have passed without a successful read.
 
