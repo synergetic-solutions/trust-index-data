@@ -15507,10 +15507,6 @@
     "domain": "bontsos.com",
     "name": "Bontsos",
     "frameworks": [
-      "SOC 2",
-      "ISO 27001",
-      "HIPAA",
-      "PCI DSS",
       "GDPR",
       "CCPA"
     ],
@@ -16429,12 +16425,9 @@
     "domain": "brickanta.com",
     "name": "Brickanta",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
-      "HIPAA",
       "GDPR",
-      "EU AI Act",
-      "NIS2"
+      "EU AI Act"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.brickanta.com/",
@@ -30341,14 +30334,10 @@
     "domain": "dataguard.com",
     "name": "Dataguard",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
       "ISO 27701",
       "ISO 42001",
-      "HIPAA",
-      "PCI DSS",
-      "GDPR",
-      "NIS2"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.dataguard.com/",
@@ -30824,12 +30813,7 @@
     "domain": "dbc1.com",
     "name": "Dbc1",
     "frameworks": [
-      "SOC 2",
-      "ISO 27001",
-      "HIPAA",
-      "PCI DSS",
-      "GDPR",
-      "EU-US DPF"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.dbc1.com/",
@@ -34536,22 +34520,11 @@
     "domain": "drivelock.com",
     "name": "Drivelock",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
-      "ISO 27017",
-      "ISO 27018",
-      "ISO 27701",
       "ISO 9001",
-      "ISO 22301",
-      "HIPAA",
-      "PCI DSS",
       "GDPR",
-      "CCPA",
       "TISAX",
-      "CSA STAR",
-      "DORA",
-      "NIS2",
-      "C5"
+      "NIS2"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.drivelock.com/",
@@ -37128,9 +37101,7 @@
     "domain": "elyrasystems.com",
     "name": "Elyrasystems",
     "frameworks": [
-      "ISO 27001",
-      "GDPR",
-      "NIS2"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.elyrasystems.com/",
@@ -55198,11 +55169,8 @@
     "domain": "hownow.com",
     "name": "Hownow",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
       "ISO 9001",
-      "HIPAA",
-      "PCI DSS",
       "GDPR",
       "EU AI Act",
       "NIS2",
@@ -58345,12 +58313,7 @@
     "domain": "inreha.net",
     "name": "Inreha",
     "frameworks": [
-      "SOC 2",
-      "ISO 27001",
-      "HIPAA",
-      "PCI DSS",
-      "GDPR",
-      "NIS2"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.inreha.net/",
@@ -67496,12 +67459,9 @@
     "domain": "lette.ai",
     "name": "Lette",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
-      "HIPAA",
       "GDPR",
-      "EU AI Act",
-      "NIS2"
+      "EU AI Act"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.lette.ai/",
@@ -80587,11 +80547,8 @@
     "domain": "noru.tech",
     "name": "Noru",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
-      "HIPAA",
-      "GDPR",
-      "NIS2"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.noru.tech/",
@@ -84051,10 +84008,8 @@
     "domain": "opper.ai",
     "name": "Opper",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
-      "GDPR",
-      "NIS2"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.opper.ai/",
@@ -84648,13 +84603,7 @@
     "domain": "orbiqhq.com",
     "name": "Orbiqhq",
     "frameworks": [
-      "SOC 2",
-      "ISO 27001",
-      "HIPAA",
-      "PCI DSS",
-      "GDPR",
-      "EU AI Act",
-      "EU-US DPF"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trustcenter.orbiqhq.com/",
@@ -85116,10 +85065,7 @@
     "domain": "ossus.com",
     "name": "Ossus",
     "frameworks": [
-      "SOC 2",
-      "ISO 27001",
-      "HIPAA",
-      "NIS2"
+      "ISO 27001"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.ossus.com/",
@@ -103475,16 +103421,8 @@
     "domain": "securecloud.de",
     "name": "Securecloud",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
-      "ISO 27017",
-      "ISO 27018",
-      "ISO 9001",
-      "ISO 14001",
-      "HIPAA",
-      "PCI DSS",
       "GDPR",
-      "TISAX",
       "CIS Controls",
       "DORA",
       "NIS2",
@@ -131689,12 +131627,8 @@
     "domain": "willo.video",
     "name": "Willo",
     "frameworks": [
-      "SOC 2",
       "ISO 27001",
-      "HIPAA",
-      "PCI DSS",
-      "GDPR",
-      "EU-US DPF"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.willo.video/",
