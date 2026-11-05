@@ -1,0 +1,11 @@
+# The page's compliance list omits TISAX, and its FAQ states the certification.
+domain: drivelock.com
+frameworks:
+  - ISO 27001
+  - ISO 9001
+  - NIS2
+  - GDPR
+  - TISAX
+source: https://trust.drivelock.com/
+method: hand-verified
+verifiedAt: "2026-11-04"
