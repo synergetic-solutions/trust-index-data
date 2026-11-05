@@ -1,0 +1,13 @@
+# Checked by hand against the page. It doesn't list the frameworks this list leaves out.
+domain: smallest.ai
+frameworks:
+  - SOC 2
+  - ISO 27001
+  - HIPAA
+  - PCI DSS
+  - GDPR
+  - CCPA
+  - FIPS 140
+source: https://smallest.ai/
+method: hand-verified
+verifiedAt: "2026-11-05"
