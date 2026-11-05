@@ -5971,8 +5971,7 @@
       "ISO 27701",
       "ISO 22301",
       "PCI DSS",
-      "GDPR",
-      "C5"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trustcenter.ant-intl.com/",
@@ -41261,8 +41260,7 @@
     "frameworks": [
       "ISO 27001",
       "ISO 27701",
-      "GDPR",
-      "C5"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.fellowdigitals.com/",
@@ -43303,9 +43301,6 @@
   {
     "domain": "floyo.ai",
     "name": "Floyo",
-    "frameworks": [
-      "C5"
-    ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.floyo.ai/",
     "evidence": "B",
@@ -54385,8 +54380,7 @@
     "frameworks": [
       "CSA STAR",
       "NIST CSF",
-      "EU-US DPF",
-      "C5"
+      "EU-US DPF"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.hivesilo.com/",
@@ -57077,8 +57071,7 @@
     "domain": "impact.com",
     "name": "Impact",
     "frameworks": [
-      "GDPR",
-      "C5"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.impact.com/",
@@ -83437,8 +83430,7 @@
     "frameworks": [
       "SOC 2",
       "ISO 27001",
-      "GDPR",
-      "C5"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.onyx.security/",
