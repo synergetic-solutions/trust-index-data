@@ -8314,8 +8314,7 @@
     "name": "Arthrex (United States)",
     "segment": "Healthcare & Life Sciences",
     "frameworks": [
-      "SOC 2",
-      "HIPAA"
+      "SOC 2"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.arthrex.com/",
@@ -9921,8 +9920,7 @@
     "domain": "auditcaddie.com",
     "name": "Auditcaddie",
     "frameworks": [
-      "SOC 2",
-      "ISO 27001"
+      "SOC 2"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.auditcaddie.com/",
@@ -10715,8 +10713,6 @@
     "domain": "auvy.ai",
     "name": "Auvy",
     "frameworks": [
-      "SOC 2",
-      "ISO 27001",
       "GDPR"
     ],
     "observedAt": "2026-11-03",
@@ -11937,8 +11933,6 @@
     "frameworks": [
       "SOC 1",
       "SOC 2",
-      "ISO 27001",
-      "ISO 42001",
       "PCI DSS",
       "EU-US DPF"
     ],
@@ -34977,7 +34971,6 @@
       "HIPAA",
       "PCI DSS",
       "GDPR",
-      "CCPA",
       "StateRAMP / GovRAMP",
       "CSA STAR"
     ],
@@ -35919,9 +35912,6 @@
     "name": "Edifecs is now Cotiviti",
     "segment": "Healthcare & Life Sciences",
     "frameworks": [
-      "ISO 27001",
-      "HIPAA",
-      "PCI DSS",
       "HITRUST"
     ],
     "observedAt": "2026-11-03",
@@ -70913,10 +70903,7 @@
       "SOC 2",
       "SOC 3",
       "ISO 27001",
-      "ISO 27701",
-      "HIPAA",
-      "PCI DSS",
-      "GDPR"
+      "PCI DSS"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.magentrix.com/",
@@ -76827,8 +76814,7 @@
     "domain": "mozaik-app.com",
     "name": "Mozaik App",
     "frameworks": [
-      "GDPR",
-      "EU AI Act"
+      "GDPR"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trust.mozaik-app.com/",
@@ -77986,14 +77972,10 @@
     "domain": "naseej.com",
     "name": "Naseej",
     "frameworks": [
-      "SOC 1",
-      "SOC 2",
-      "SOC 3",
       "ISO 27001",
       "ISO 27017",
       "ISO 27018",
-      "ISO 9001",
-      "CSA STAR"
+      "ISO 9001"
     ],
     "observedAt": "2026-11-03",
     "trustUrl": "https://trustcenter.naseej.com/",
@@ -80241,7 +80223,6 @@
       "ISO 27001",
       "ISO 42001",
       "HIPAA",
-      "PCI DSS",
       "CCPA",
       "EU AI Act"
     ],
@@ -107202,7 +107183,6 @@
       "PCI DSS",
       "GDPR",
       "CCPA",
-      "FedRAMP",
       "FIPS 140"
     ],
     "observedAt": "2026-11-03",
@@ -107545,7 +107525,6 @@
       "GDPR",
       "CCPA",
       "TISAX",
-      "EU AI Act",
       "Cyber Essentials"
     ],
     "observedAt": "2026-11-03",
@@ -131987,7 +131966,6 @@
       "GDPR",
       "CCPA",
       "CPRA",
-      "FedRAMP",
       "EU-US DPF"
     ],
     "observedAt": "2026-11-03",

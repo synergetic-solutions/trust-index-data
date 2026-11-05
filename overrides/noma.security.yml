@@ -1,0 +1,12 @@
+# Checked by hand against the page. It doesn't list the frameworks this list leaves out.
+domain: noma.security
+frameworks:
+  - SOC 2
+  - ISO 27001
+  - ISO 42001
+  - HIPAA
+  - CCPA
+  - EU AI Act
+source: https://noma.security/
+method: hand-verified
+verifiedAt: "2026-11-05"

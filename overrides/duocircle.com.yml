@@ -1,0 +1,12 @@
+# Checked by hand against the page. It doesn't list the frameworks this list leaves out.
+domain: duocircle.com
+frameworks:
+  - SOC 2
+  - HIPAA
+  - PCI DSS
+  - GDPR
+  - StateRAMP / GovRAMP
+  - CSA STAR
+source: https://duocircle.com/
+method: hand-verified
+verifiedAt: "2026-11-05"

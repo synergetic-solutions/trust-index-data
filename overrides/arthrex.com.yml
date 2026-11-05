@@ -1,0 +1,7 @@
+# Checked by hand against the page. It doesn't list the frameworks this list leaves out.
+domain: arthrex.com
+frameworks:
+  - SOC 2
+source: https://arthrex.com/
+method: hand-verified
+verifiedAt: "2026-11-05"

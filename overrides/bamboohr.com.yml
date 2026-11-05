@@ -1,0 +1,10 @@
+# Checked by hand against the page. It doesn't list the frameworks this list leaves out.
+domain: bamboohr.com
+frameworks:
+  - SOC 1
+  - SOC 2
+  - PCI DSS
+  - EU-US DPF
+source: https://bamboohr.com/
+method: hand-verified
+verifiedAt: "2026-11-05"
