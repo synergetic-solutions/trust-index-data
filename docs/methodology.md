@@ -78,7 +78,7 @@ For organizations that advertise HIPAA or sit in the healthcare segment, the pro
 
 ## The scorecard
 
-The [scorecard](https://synergetic.solutions/resources/trust-center-directory/scorecard/) runs four public checks on any domain, one point each: a security.txt file with a contact, an SPF record, a DMARC record, and DNSSEC. It also reports whether a trust center resolves on the domain, without scoring it. The percentile compares the score with every organization in the index. The directory's own posture score uses the same four checks but counts DMARC only at quarantine or reject; the scorecard accepts any policy and says so.
+The [scorecard](https://synergetic.solutions/resources/scorecard/) runs four public checks on any domain, one point each: a security.txt file with a contact, an SPF record, a DMARC record, and DNSSEC. It also reports whether a trust center resolves on the domain, without scoring it. The percentile compares the score with every organization in the index. The directory's own posture score uses the same four checks but counts DMARC only at quarantine or reject; the scorecard accepts any policy and says so.
 
 ## Evidence behind each record
 
