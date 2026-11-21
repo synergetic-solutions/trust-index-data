@@ -66,7 +66,9 @@ Identity details (founding year, industry, external profiles) come from Wikidata
 
 ## Security hygiene score
 
-Profiles carry a hygiene score out of 4 measured on the company domain, not the trust center: a security.txt file with a contact, an SPF record, a DMARC policy at quarantine or reject, and DNSSEC. It is deliberately independent of compliance claims; a SOC 2 report and an unenforced DMARC policy coexist on most trust centers. Segment hubs show the distribution.
+Profiles carry a hygiene score out of 6 measured on the company domain, not the trust center, one point per check: a security.txt file with a contact, an SPF record, a DMARC policy at quarantine or reject, DNSSEC, HSTS and a CAA record. HSTS counts when the domain's first HTTPS response, before any redirect, sends a Strict-Transport-Security header with a max-age of at least six months; includeSubDomains and preload add nothing, and an error response fails the check. CAA counts when the domain publishes a CAA record with an issue or issuewild tag; a DNS error counts as no record. The score is deliberately independent of compliance claims; a SOC 2 report and an unenforced DMARC policy coexist on most trust centers. Segment hubs show the distribution.
+
+**Change, December 2026.** The HSTS and CAA checks joined the score with the December 2026 refresh, moving it from out of 4 to out of 6. Scores from that refresh on are not comparable with earlier ones, and a higher score can come from the new checks rather than from a change at the organization.
 
 ## Published controls
 
@@ -78,7 +80,7 @@ For organizations that advertise HIPAA or sit in the healthcare segment, the pro
 
 ## The scorecard
 
-The [scorecard](https://synergetic.solutions/resources/scorecard/) runs four public checks on any domain, one point each: a security.txt file with a contact, an SPF record, a DMARC record, and DNSSEC. It also reports whether a trust center resolves on the domain, without scoring it. The percentile compares the score with every organization in the index. The directory's own posture score uses the same four checks but counts DMARC only at quarantine or reject; the scorecard accepts any policy and says so.
+The [scorecard](https://synergetic.solutions/resources/scorecard/) runs four public checks on any domain, one point each: a security.txt file with a contact, an SPF record, a DMARC record, and DNSSEC. It also reports whether a trust center resolves on the domain, without scoring it. The percentile compares the score with every organization in the index. The directory's own posture score shares these four checks, counts DMARC only at quarantine or reject, and adds HSTS and CAA; the scorecard accepts any DMARC policy and says so.
 
 ## Evidence behind each record
 
@@ -90,6 +92,10 @@ Every record carries an evidence tier, and the open dataset publishes it with th
 - **Tier D**: a trust-style hostname resolved but nothing could be read, or it served the company homepage, a not-found page, a closed trust center, a page that names frameworks but does not present itself as a trust center, or a page that only says what the organization does not hold or seek. Tier D is never published; it is re-checked every refresh.
 
 Organizations in tiers A and B get a profile and make up the index's counts. The open dataset also includes tier C, labelled as such. A tier A or B trust center that cannot be read keeps its tier until two consecutive refreshes have passed without a successful read.
+
+## Platform switches
+
+The site's [what changed](https://synergetic.solutions/resources/trust-center-directory/changes/) page shows how many organizations moved their trust center from one platform to another between releases, as a count for each pair of platforms, without naming the organizations. A switch counts only when the platform's own API read the organization's trust center in both releases and the platform differs. Trust centers carried forward from an earlier read, and trust centers seen for the first time, are left out. Counting starts with the October 2026 releases, when evidence tiers began. A switch is still a detection: a trust center can change platform for reasons other than a change of vendor.
 
 ## Corrections and claims
 
