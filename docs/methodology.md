@@ -15,7 +15,7 @@ The Trust Center Directory catalogs the **publicly advertised** security and com
 - **"Advertises alignment with"** is used for frameworks that cannot be certified. The organization says it follows the framework; no third party certifies that.
 - **HIPAA** entries reflect a public claim of compliance. No HIPAA certification exists; HIPAA compliance is self-attested.
 - **"First observed"** dates come from public web archives and reflect the earliest capture we found. Archive coverage is incomplete, so pages may have existed earlier.
-- **"Access-gated"** means the trust center exists but its contents require a request-access step (an NDA or an approval), so its framework claims are not publicly visible. We report the gate itself, never what may sit behind it. "Partially gated" means some documents require access while the framework claims are public.
+- **"Access-gated"** means every document on the trust center requires a request-access step (an NDA or an approval). Framework names the page shows publicly are still reported. We report the gate itself, never what sits behind it. "Partially gated" means some documents require access while others are public.
 - **"Last read"** appears when a refresh could not re-read a trust center (a network failure, a rate limit, a bot block). The previously observed claims are kept with the date they were last read, and dropped after two consecutive refreshes without a successful read. A trust center that was read and found gated is not carried forward. Neither is one found empty, with one exception: if its page comes back empty, it is on the same platform as before, and the previous release listed frameworks for it, the read counts as failed and the claims are kept on the same terms.
 
 ## How trust centers are discovered
@@ -74,7 +74,7 @@ Where a platform exposes the controls an organization publishes on its trust cen
 
 ## Business associate agreements
 
-For organizations that advertise HIPAA or sit in the healthcare segment, the profile says whether BAA information was found on the public trust center: a document or FAQ naming a business associate agreement, either publicly readable or behind a request-access step. Not finding one never means an organization will not sign a BAA; many provide one through sales. Publishing BAA information is not a HIPAA compliance claim, and organizations can point us at their BAA page through the correction form.
+For organizations that advertise HIPAA or sit in the healthcare segment, the profile says whether BAA information was found on the public trust center: a document, link or FAQ answer that names a business associate agreement or the organization's business associate arrangements, either publicly readable or behind a request-access step. Agreements an organization posts with its own vendors count too. Two kinds of item do not: a business associate policy (an organization's own HIPAA policy, often a template item on its trust center platform) unless its title also names an agreement, BAA or addendum, and an FAQ answer saying the organization cannot or will not sign a BAA, or is not subject to HIPAA. Not finding BAA information never means an organization will not sign a BAA; many provide one through sales. Publishing BAA information is not a HIPAA compliance claim, and organizations can point us at their BAA page through the correction form.
 
 ## The scorecard
 
