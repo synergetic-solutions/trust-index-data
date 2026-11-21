@@ -18,6 +18,21 @@ Everything published is **publicly observable**: what companies themselves adver
 
 Compliance timelines, DNS posture scores, the chain-trust ratio and an organization's own subprocessor, AI-provider and open-role counts are shown free on every profile page but are not part of this CC BY dataset. The proprietary layers (subprocessor names and detail, the organizations naming one as a subprocessor and their count, hiring roles and frameworks, historical diffs) are **not** in this repo; they are available through [synergetic.solutions/trust-index](https://synergetic.solutions/trust-index).
 
+## API
+
+The directory is also served as JSON under `https://synergetic.solutions/api/trust/`. The [OpenAPI document](https://synergetic.solutions/openapi.json) describes every route.
+
+Free routes: [`/api/trust/index`](https://synergetic.solutions/api/trust/index), `/api/trust/providers`, `/api/trust/frameworks` and `/api/trust/lookup?domain=`.
+
+Paid routes, sold per request over [x402](https://www.x402.org/):
+
+- `/api/trust/{slug}`: the public tier of one profile, matching the free profile page.
+- `/api/trust/{slug}/enriched`: an organization's full subprocessor list (purpose, location, AI flag), hiring role titles and frameworks, and frameworks it lists as in progress, planned or on its roadmap.
+- `/api/trust/providers/{provider_id}/users`: organizations that publicly list a provider as a subprocessor, with each one's stated purpose.
+- `/api/trust/ai-providers/orgs`: organizations that publicly list any AI provider as a subprocessor, and which ones.
+- `/api/trust/frameworks/{framework}/in-progress`: organizations that list a framework as in progress, planned or on their roadmap.
+- `/api/trust/scorecard/{domain}`: a live posture report for any domain (trust center found or not, plus four posture checks), cached for 24 hours.
+
 ## Licensing
 
 - Files under `data/open/`: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to use commercially with attribution to Synergetic Solutions and a link to the Trust Index.
