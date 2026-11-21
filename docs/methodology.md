@@ -80,7 +80,7 @@ For organizations that advertise HIPAA or sit in the healthcare segment, the pro
 
 ## The scorecard
 
-The [scorecard](https://synergetic.solutions/resources/scorecard/) runs four public checks on any domain, one point each: a security.txt file with a contact, an SPF record, a DMARC record, and DNSSEC. It also reports whether a trust center resolves on the domain, without scoring it. The percentile compares the score with every organization in the index. The directory's own posture score shares these four checks, counts DMARC only at quarantine or reject, and adds HSTS and CAA; the scorecard accepts any DMARC policy and says so.
+The [scorecard](https://synergetic.solutions/resources/scorecard/) runs six public checks on any domain, one point each: a security.txt file with a contact, an SPF record, a DMARC record, DNSSEC, HSTS and a CAA record. It also reports whether a trust center resolves on the domain, without scoring it. The percentile compares the score with every organization in the index. The checks match the directory's own posture score except for DMARC: the directory counts it only at quarantine or reject, while the scorecard accepts any policy and says so.
 
 ## Evidence behind each record
 
@@ -95,7 +95,7 @@ Organizations in tiers A and B get a profile and make up the index's counts. The
 
 ## Platform switches
 
-The site's [what changed](https://synergetic.solutions/resources/trust-center-directory/changes/) page shows how many organizations moved their trust center from one platform to another between releases, as a count for each pair of platforms, without naming the organizations. A switch counts only when the platform's own API read the organization's trust center in both releases and the platform differs. Trust centers carried forward from an earlier read, and trust centers seen for the first time, are left out. Counting starts with the October 2026 releases, when evidence tiers began. A switch is still a detection: a trust center can change platform for reasons other than a change of vendor.
+The site's [what changed](https://synergetic.solutions/resources/trust-center-directory/changes/) page shows how many organizations moved their trust center from one platform to another between releases, as a count for each pair of platforms, and each platform's page shows the switches to and from that platform. Neither names the organizations. A switch counts only when the platform's own API read the organization's trust center in both releases and the platform differs. Trust centers carried forward from an earlier read, and trust centers seen for the first time, are left out. Counting starts with the October 2026 releases, when evidence tiers began. A switch is still a detection: a trust center can change platform for reasons other than a change of vendor.
 
 ## Corrections and claims
 
